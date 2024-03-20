@@ -11,7 +11,7 @@ const Form = ({ city, setCity, countryCode, setCountryCode, handleSubmit }) => {
       />
       <input
         type="text"
-        placeholder="Enter country code"
+        placeholder="Enter country code (ISO)"
         value={countryCode}
         onChange={(e) => setCountryCode(e.target.value)}
       />
